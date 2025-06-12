@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: CustomerMS
+
+#Tomcat server details
+server:
+  port: 4570
+
+  
+#Eureks server details
+eureka:
+  client:
+    service-url:
+        defaultZone: http://localhost:4567/eureka/
